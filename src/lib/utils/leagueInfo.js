@@ -25,6 +25,12 @@ export const managers = [
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Kyle",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Seattle"
+      "bio": "This is a bio section"
+      "photo": "/managers/name.jpg", // done
+      "fantasyStart": 2020
+      "favoriteTeam": "sea"
+      "mode": "Win Now"
       "philosophy": "Your fantasy team's philosophy",
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
