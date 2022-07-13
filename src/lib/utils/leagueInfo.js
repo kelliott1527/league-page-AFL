@@ -23,94 +23,86 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Andy",
+      "name": "Kyle",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "philosophy": "Your fantasy team's philosophy",
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Bennet",
+      "name": "Jake",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "philosophy": "Your fantasy team's philosophy",
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Boyd",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Chris",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Gollo",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jake",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Joey",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Kyle C",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Kyle E",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Matt",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "philosophy": "Your fantasy team's philosophy",
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      {
-      "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Stevie",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "philosophy": "Your fantasy team's philosophy",
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Matt",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+      {
+      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Andy",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+      {
+      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Kyle C",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+      {
+      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Boyd",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+      {
+      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Chris",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+      {
+      "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Zak",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "philosophy": "Your fantasy team's philosophy",
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Andy",
+      "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Joey",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "philosophy": "Your fantasy team's philosophy",
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
+      {
+      "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Bennet",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+      {
+      "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Gollo",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "philosophy": "Your fantasy team's philosophy",
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   ]
 
