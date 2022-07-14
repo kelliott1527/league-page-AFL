@@ -2,7 +2,7 @@
 	import {cleanName, gotoManager} from '$lib/utils/helper';
 	export let podium, currentManagers;
 
-	const { year, champion, second, third, divisions, toilet } = podium;
+	const { year, champion, second, third, divisions } = podium;
 
 	const getNames = (name, rosterID) => {
 		if(cleanName(name) != cleanName(currentManagers[rosterID].name)) {
