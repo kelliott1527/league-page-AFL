@@ -115,36 +115,7 @@
 		bottom: 0;
 		left: 50%;
 		z-index: 2;
-	}
-
-	.toiletBowl {
-		position: relative;
-		width: 215px;
-		height: 190px;
-		margin: 10px auto;
-	}
-
-	.toiletWinner {
-		position: absolute;
-		width: 65px;
-		height: 65px;
-		transform: translate(-50%, 0%);
-		top: 20px;
-		left: 55%;
-		border-radius: 100%;
-		border: 1px solid var(--bbb);
-		z-index: 3;
-	}
-
-	.toilet {
-		position: absolute;
-		width: 100%;
-		height: auto;
-		transform: translate(-50%, 0%);
-		bottom: 0;
-		left: 50%;
-	}
-
+	
 	.label {
 		white-space: nowrap;
 		line-height: 1.1em;
@@ -195,25 +166,10 @@
 		text-align: center;
 	}
 
-	.toiletParent {
-		width: 100%;
-		text-align: center;
-		padding: 25px 0 40px;
-		margin-top: 30px;
-		box-shadow: 0 12px 9px -12px rgba(0,0,0,0.4);
-	}
-
 	.banner {
 		display: block;
 		width: 65%;
 		max-width: 450px;
-		margin: 20px auto 0;
-	}
-
-	.toilet-banner {
-		display: block;
-		width: 50%;
-		max-width: 350px;
 		margin: 20px auto 0;
 	}
 
