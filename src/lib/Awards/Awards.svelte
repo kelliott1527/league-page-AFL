@@ -368,18 +368,3 @@
 			{/if}
 		{/each}
 	</div>
-
-		<!-- Toilet Bowl -->
-	{#if toilet}
-		<div class="toiletParent">
-			
-			<img src="./toilet-banner.png" class="toilet-banner" alt="The Toilet Bowl" />
-
-			<div class="toiletBowl">
-				<img src="{toilet.avatar}" class="toiletWinner clickable" on:click={() => gotoManager(toilet.rosterID)} alt="toilet bowl winner" />
-				<img src="./toilet-bowl-2.png" class="toilet" alt="toilet bowl" />
-			</div>
-			<span class="genLabel clickable" on:click={() => gotoManager(toilet.rosterID)}>{@html getNames(toilet.name, toilet.rosterID)}</span>
-		</div>
-	{/if}
-</div>
